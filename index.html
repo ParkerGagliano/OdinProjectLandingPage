@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .headercontainer {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+      }
+      .left-header {
+        flex: 1;
+        background-color: red;
+      }
+
+      .right-header {
+        flex: 1;
+        align-items: center;
+        background-color: blue;
+      }
+
+      .weblogo {
+        padding-top: 15px;
+        margin-left: 100px;
+      }
+      .links {
+        margin-left: 20px;
+        text-decoration: none;
+      }
+      .link-group {
+        margin-left: 250px;
+      }
+
+      .top-middle {
+        height: 450px;
+        display: flex;
+        background-color: blue;
+      }
+
+      .left-top-middle {
+        flex: 1;
+      }
+
+      .right-top-middle {
+        flex: 1;
+      }
+
+      .awesome {
+        padding-left: 200px;
+        font-size: 50px;
+      }
+
+      .button1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-width: 0px;
+        border-radius: 10px;
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="headercontainer">
+      <div class="left-header">
+        <div class="weblogo">logo</div>
+      </div>
+      <div class="right-header">
+        <div class="link-group">
+          <a class="links" href="">header link one</a>
+          <a class="links" href="">header link two</a>
+          <a class="links" href="">header link three</a>
+        </div>
+      </div>
+    </div>
+    <div class="top-middle">
+      <div class="left-top-middle">
+        <div class="awesome">This website is awesome</div>
+        <div>
+          This website has some subtext that goes here under the main title. Its
+          smaller font and the color is lower contrast
+        </div>
+        <button class="button1">Sign up</button>
+      </div>
+      <div class="right-top-middle">joe</div>
+    </div>
+  </body>
+</html>
