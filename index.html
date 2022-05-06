@@ -13,45 +13,47 @@
       }
       .left-header {
         flex: 1;
-        background-color: red;
+        background-color: #1F2937;
       }
-
+ 
       .right-header {
         flex: 1;
         align-items: center;
-        background-color: blue;
+        background-color: #1F2937;
       }
-
+ 
       .weblogo {
         padding-top: 15px;
         margin-left: 100px;
+        font-weight: bold;
       }
       .links {
         text-decoration: none;
       }
       .link-group {
       }
-
+ 
       .top-middle {
         margin-top: 150px;
         height: 370px;
         display: flex;
-        background-color: blue;
+        background-color: #1F2937;
       }
-
+ 
       .left-top-middle {
         flex: 1;
       }
-
+ 
       .right-top-middle {
         flex: 1;
       }
-
+ 
       .awesome {
+        color: #F9FAF8;
         margin-left: 200px;
         font-size: 50px;
       }
-
+ 
       .button1 {
         margin-left: 200px;
         padding-top: 10px;
@@ -60,14 +62,15 @@
         padding-right: 30px;
         border-width: 0px;
         border-radius: 10px;
-        background-color: orange;
+        background-color: #3882F6;
       }
-
+ 
       .subtext1 {
         font-size: 21px;
         padding-left: 200px;
+        color: #E5E7EB;
       }
-
+ 
       .imgs {
         height: 250px;
         width: 500px;
@@ -75,14 +78,15 @@
       .ltmgroup {
         padding-right: 50px;
       }
-
+ 
       .middle-middle {
-        background-color: red;
+        background-color: white;
         height: 400px;
         display: flex;
       }
-
+ 
       .random-info {
+        background-color: white;
         height: 150px;
         font-size: 30px;
         font-weight: bold;
@@ -91,7 +95,7 @@
         height: 150px;
         flex: 1;
       }
-
+ 
       .image-ill {
         background-color: red;
         height: 400px;
@@ -116,14 +120,14 @@
       .sub-photo-text {
         text-align: center;
       }
-        
+ 
       .quote-bottom {
         height: 400px;
-        background-color: aqua;
+        background-color: #E5E7EB;
         position: relative;
-
+ 
       }
-
+ 
       .quote {
         width: 750px;
         font-size: 35px;
@@ -133,31 +137,53 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
-
+ 
       .call-to-action {
         height: 300px;
         background-color: red;
         position: relative;
       }
-
+ 
       .call-box {
-        border-radius: 15px;
+        border-radius: 9px;
         height: 125px;
+        width: 800px;
+        margin: 0;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #3882F6;
+      }
+ 
+      .its-time {
         width: 800px;
         margin: 0;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: black
       }
-      
+ 
+      .sign-up {
+        border-width: 1px;
+        border-color: white;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 20px;
+        padding-left: 20px;
+        background-color: #3882F6;
+        margin-top: 50px;
+        margin-left: 75%;
+      }
+ 
     </style>
   </head>
   <body>
     <div class="headercontainer">
       <div class="left-header">
-        <div class="weblogo">logo</div>
+        <div class="weblogo">Header Logo</div>
       </div>
       <div class="right-header">
         <div class="link-group">
@@ -204,7 +230,7 @@
       />
       <div class="sub-photo-text">this is some subtext under an illustration or image</div>
     </div>
-
+ 
       <div class="photo-text">
         <img
         class="mini-photo"
@@ -213,7 +239,7 @@
       />
       <div class="sub-photo-text">this is some subtext under an illustration or image</div>
     </div>
-
+ 
       <div class="photo-text">
         <img
         class="mini-photo"
@@ -232,10 +258,14 @@
     </div>
     <div class="call-to-action">
       <div class="call-box">
-        <div>Call to action! It's Time!<br>Sign up for out product by clicking
+        <div class="its-time">Call to action! It's Time!<br>Sign up for out product by clicking
         that button right over there! </div>
+ 
+        <button class="sign-up">Sign Up</button>
+ 
       </div>
-
+ 
+ 
     </div>
   </body>
 </html>
