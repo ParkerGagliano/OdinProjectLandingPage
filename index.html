@@ -27,15 +27,14 @@
         margin-left: 100px;
       }
       .links {
-        margin-left: 20px;
         text-decoration: none;
       }
       .link-group {
-        margin-left: 250px;
       }
 
       .top-middle {
-        height: 450px;
+        margin-top: 150px;
+        height: 370px;
         display: flex;
         background-color: blue;
       }
@@ -49,11 +48,12 @@
       }
 
       .awesome {
-        padding-left: 200px;
+        margin-left: 200px;
         font-size: 50px;
       }
 
       .button1 {
+        margin-left: 200px;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 30px;
@@ -62,6 +62,96 @@
         border-radius: 10px;
         background-color: orange;
       }
+
+      .subtext1 {
+        font-size: 21px;
+        padding-left: 200px;
+      }
+
+      .imgs {
+        height: 250px;
+        width: 500px;
+      }
+      .ltmgroup {
+        padding-right: 50px;
+      }
+
+      .middle-middle {
+        background-color: red;
+        height: 400px;
+        display: flex;
+      }
+
+      .random-info {
+        height: 150px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        line-height: 150px;
+        height: 150px;
+        flex: 1;
+      }
+
+      .image-ill {
+        background-color: red;
+        height: 400px;
+        margin-left: 300px;
+        margin-right: 300px;
+        display: flex;
+      }
+      .mini-photo {
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+      }
+      .photo-text {
+        display: inline-block;
+        flex: 1;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 150px;
+        height: 400px;
+        background-color: aliceblue;
+      }
+      .sub-photo-text {
+        text-align: center;
+      }
+        
+      .quote-bottom {
+        height: 400px;
+        background-color: aqua;
+        position: relative;
+
+      }
+
+      .quote {
+        width: 750px;
+        font-size: 35px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .call-to-action {
+        height: 300px;
+        background-color: red;
+        position: relative;
+      }
+
+      .call-box {
+        border-radius: 15px;
+        height: 125px;
+        width: 800px;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black
+      }
+      
     </style>
   </head>
   <body>
@@ -79,14 +169,73 @@
     </div>
     <div class="top-middle">
       <div class="left-top-middle">
-        <div class="awesome">This website is awesome</div>
-        <div>
-          This website has some subtext that goes here under the main title. Its
-          smaller font and the color is lower contrast
+        <div class="ltmgroup">
+          <div class="awesome">This website is awesome</div>
+          <div class="subtext1">
+            This website has some subtext that goes here under the main title.
+            Its smaller font and the color is lower contrast
+          </div>
+          <button class="button1">Sign up</button>
         </div>
-        <button class="button1">Sign up</button>
       </div>
-      <div class="right-top-middle">joe</div>
+      <div class="right-top-middle">
+        <img
+          class="imgs"
+          src="Screen Shot 2022-04-28 at 12.21.55 PM.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="random-info">Some Random Information</div>
+    <div class="image-ill">
+      <div class="photo-text">
+        <img
+        class="mini-photo"
+        src="Screen Shot 2022-05-04 at 2.31.37 PM.png"
+        alt=""
+      />
+      <div class="sub-photo-text">this is some subtext under an illustration or image</div>
+    </div>
+      <div class="photo-text">
+        <img
+        class="mini-photo"
+        src="Screen Shot 2022-05-04 at 2.31.37 PM.png"
+        alt=""
+      />
+      <div class="sub-photo-text">this is some subtext under an illustration or image</div>
+    </div>
+
+      <div class="photo-text">
+        <img
+        class="mini-photo"
+        src="Screen Shot 2022-05-04 at 2.31.37 PM.png"
+        alt=""
+      />
+      <div class="sub-photo-text">this is some subtext under an illustration or image</div>
+    </div>
+
+      <div class="photo-text">
+        <img
+        class="mini-photo"
+        src="Screen Shot 2022-05-04 at 2.31.37 PM.png"
+        alt=""
+      />
+      <div class="sub-photo-text">this is some subtext under an illustration or image</div>
+    </div>
+      </div>
+    <div class="quote-bottom">
+      <div class = "quote">This is an inspiring quote, or a testimonial from
+        a customer. Maybe it's just filling up space, or maybe people will actually
+        read it. Who knows? All I know is that it looks nice.
+      </div>
+    </div>
+    </div>
+    <div class="call-to-action">
+      <div class="call-box">
+        <div>Call to action! It's Time!<br>Sign up for out product by clicking
+        that button right over there! </div>
+      </div>
+
     </div>
   </body>
 </html>
